@@ -3,9 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/lambda1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lambda2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shared_lib" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/lambda1/lambda1/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/.cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
