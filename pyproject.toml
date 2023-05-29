@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "multi_module_monolith_maybe_manageable"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.7"
 
 
 [build-system]
