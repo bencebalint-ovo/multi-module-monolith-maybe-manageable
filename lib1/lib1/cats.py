@@ -1,2 +1,2 @@
 def meow():
-    return 'A cat says "meow".'
+    return 'The cat says "moo"'
