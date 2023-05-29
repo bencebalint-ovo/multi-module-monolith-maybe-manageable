@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "multi-module-monolith-maybe-manageable"
+version = "0.1.0"
+description = ""
+authors = ["Bence Balint <bence.balint@ovoenergy.com>"]
+readme = "README.md"
+packages = [{include = "multi_module_monolith_maybe_manageable"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
