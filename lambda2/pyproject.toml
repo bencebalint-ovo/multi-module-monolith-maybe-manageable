@@ -6,7 +6,9 @@ authors = ["Bence Balint <bence.balint@ovoenergy.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
+shared-lib = {path = "../shared_lib"}
+lib2 = {path = "../lib2"}
 
 
 [build-system]

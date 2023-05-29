@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "shared_lib"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 
 
 [build-system]

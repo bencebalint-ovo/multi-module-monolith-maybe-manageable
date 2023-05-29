@@ -14,7 +14,21 @@ develop = false
 type = "directory"
 url = "../lib1"
 
+[[package]]
+name = "shared-lib"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.9"
+files = []
+develop = false
+
+[package.source]
+type = "directory"
+url = "../shared_lib"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "976f8216f7c16e97e7a6d7dd888aa13ae181ab74d1c30ede0bfe4f16ec1c3e62"
+content-hash = "2d3dfac768783d0ec0b81a011922f1c65368dac4c979add89e8b42106baa014c"
