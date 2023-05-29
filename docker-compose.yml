@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  localstack:
+    container_name: "localstackmmmmm"
+    image: localstack/localstack:latest
+    ports:
+      - "127.0.0.1:4566:4566"            # LocalStack Gateway
+      - "127.0.0.1:4510-4559:4510-4559"  # external services port range
+    environment:
+      - LAMBDA_EXECUTOR=docker-reuse
+      - SERVICES=lambda,logs
+      - PYTHONUNBUFFERED=1 # disable output buffering to prevent the logs from lagging behind
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      # - ./localstack:/mnt
+      # - ./localstack/init-scripts:/etc/localstack/init/ready.d
