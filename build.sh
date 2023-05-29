@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 VENV_DIR=".venv"
-BUILD_DIR="dist/lambda_package"
+BUILD_DIR="dist/build_function_zip"
 # TARGET="../function.zip" # TODO misleading; this is relative from BUILD_DIR
 
 pushd lambda1
@@ -14,7 +14,7 @@ mkdir -p "${BUILD_DIR}"
 cp -r "${VENV_DIR}"/lib/python3*/site-packages/* "${BUILD_DIR}"/
 cp -r lambda1/* "${BUILD_DIR}/"
 
-# tf does this now
+# TODO tf does this now, but we could build here and push to s3 etc. instead
 # pushd "${BUILD_DIR}"
 # zip -r --filesync "${TARGET}" .
 # popd
