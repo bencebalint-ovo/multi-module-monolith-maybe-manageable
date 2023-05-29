@@ -12,7 +12,7 @@ data "aws_iam_policy_document" "assume_role" {
 }
 
 resource "aws_iam_role" "iam_for_lambda" {
-  name               = "iam_for_lambda1"
+  name               = "iam_for_lambda2"
   assume_role_policy = data.aws_iam_policy_document.assume_role.json
 }
 
@@ -23,7 +23,7 @@ data "archive_file" "lambda" {
 }
 
 resource "aws_lambda_function" "test_lambda" {
-  function_name = "lambda1"
+  function_name = "lambda2"
   role          = aws_iam_role.iam_for_lambda.arn
 
   filename         = "dist/function.zip"
