@@ -10,6 +10,13 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/lambda1/lambda1/.cache" />
       <excludeFolder url="file://$MODULE_DIR$/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda1/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda1/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda1/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda2/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda2/.terraform" />
+      <excludeFolder url="file://$MODULE_DIR$/lambda1/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/lib1/dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
