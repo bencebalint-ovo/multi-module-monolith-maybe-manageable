@@ -6,7 +6,7 @@ version = "0.1.0"
 description = ""
 category = "main"
 optional = false
-python-versions = "^3.11"
+python-versions = "^3.9"
 files = []
 develop = false
 
@@ -16,5 +16,5 @@ url = "../lib1"
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "c3482343c556eccd0beaf90beec7dfcd254b42611386bb1eea155d6cd7df8329"
+python-versions = "^3.9"
+content-hash = "976f8216f7c16e97e7a6d7dd888aa13ae181ab74d1c30ede0bfe4f16ec1c3e62"

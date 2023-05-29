@@ -1,8 +1,8 @@
 from lib1 import cats
 
-def lambda_handler(event):
-    print('hello from lambda, got event "%s"' % event)
-    print("FYI %s" % cats.meow())
+
+def lambda_handler(event, context):
+    return {"fact": cats.meow()}
 
 
 if __name__ == "__main__":

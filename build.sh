@@ -2,7 +2,7 @@
 
 VENV_DIR=".venv"
 BUILD_DIR="dist/lambda_package"
-TARGET="../function.zip" # TODO misleading; this is relative from BUILD_DIR
+# TARGET="../function.zip" # TODO misleading; this is relative from BUILD_DIR
 
 pushd lambda1
 
@@ -14,8 +14,9 @@ mkdir -p "${BUILD_DIR}"
 cp -r "${VENV_DIR}"/lib/python3*/site-packages/* "${BUILD_DIR}"/
 cp -r lambda1/* "${BUILD_DIR}/"
 
-pushd "${BUILD_DIR}"
-zip -r --filesync "${TARGET}" .
-popd
+# tf does this now
+# pushd "${BUILD_DIR}"
+# zip -r --filesync "${TARGET}" .
+# popd
 
 popd
